@@ -5,7 +5,7 @@ Micro.js, combined.
 
 ## Utils
 
-* Toolbelt: http://underscorejs.org/
+* Toolbelt: http://underscorejs.org / http://lodash.com
 * Async: https://github.com/caolan/async
 * Promises: https://github.com/tildeio/rsvp.js
 * URLs: https://github.com/websanova/js-url
