@@ -3,26 +3,6 @@
 Micro.js, combined.
 
 
-## Data
-
-* Models: ...
-* Collections: ...
-
-
-## Communication
-
-* Routing: https://github.com/olav/dispatch.js
-* Cookies: https://github.com/js-coder/cookie.js
-* Ajax: ...
-* Sockets: ...
-
-
-## DOM
-
-* Bindings: http://rivetsjs.com/
-* Creation: ...
-
-
 ## Utils
 
 * Toolbelt: http://underscorejs.org/
@@ -33,8 +13,26 @@ Micro.js, combined.
 
 ## Compat
 
+* HTML5: https://github.com/aFarkas/html5shiv
+* Normalize CSS: http://necolas.github.com/normalize.css/
 * ES5: https://github.com/kriskowal/es5-shim
 * JSON: https://github.com/douglascrockford/JSON-js
+
+
+## Data
+
+* Models: ...
+* Collections: ...
+* Cookies: https://github.com/js-coder/cookie.js
+* Ajax: ...
+* Sockets: ...
+
+
+## Browser & DOM
+
+* Routing: https://github.com/olav/dispatch.js
+* Bindings: http://rivetsjs.com/
+* Creation: ...
 
 
 ## Build
