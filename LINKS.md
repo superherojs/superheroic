@@ -9,6 +9,7 @@ Micro.js, combined.
 * Async: https://github.com/caolan/async
 * Promises: https://github.com/tildeio/rsvp.js
 * Dates: http://momentjs.com/
+* Number formatting: ...
 
 
 ## Compat
