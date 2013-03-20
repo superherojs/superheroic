@@ -6,10 +6,11 @@ Micro.js, combined.
 ## Utils
 
 * Toolbelt: http://underscorejs.org/
+* Strings: http://epeli.github.com/underscore.string/
 * Async: https://github.com/caolan/async
 * Promises: https://github.com/tildeio/rsvp.js
 * Dates: http://momentjs.com/
-* Number formatting: ...
+* Numbers: ...
 
 
 ## Compat
@@ -20,10 +21,11 @@ Micro.js, combined.
 * JSON: https://github.com/douglascrockford/JSON-js
 
 
-## Data
+## Data & Flow
 
 * Models: ...
 * Collections: ...
+* Events: https://github.com/Wolfy87/EventEmitter
 * Cookies: https://github.com/js-coder/cookie.js
 * Ajax: ...
 * Sockets: ...
