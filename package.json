@@ -1,0 +1,15 @@
+{
+  "author": "Superheroic <mail@superherojs.com>",
+  "name": "superheroic",
+  "description": "Micro.js distilled.",
+  "version": "0.0.1",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superherojs/superheroic.git"
+  },
+
+  "scripts": {
+    "preinstall": "npm i -g bower pacman"
+  }
+}
