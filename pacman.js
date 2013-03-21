@@ -1,21 +1,16 @@
-exports.config = {
-
+var config = exports.config = {
+  assets: {},
   layout: false,
   packed: "packed",
-  ignore_processing: ["components"],
+  ignore_processing: ["components"]
+};
 
-  assets: {
+config.assets.js = {
+  vendor: ["components/rsvp/rsvp.js", "components/underscore/underscore.js"],
+  app: ["js/main.js"]
+};
 
-    js: {
-      vendor: ["components/rsvp/rsvp.js", "components/underscore/underscore.js" ],
-      app: ["js/main.js"]
-    },
-
-    css: {
-      vendor: [],
-      app: ["css/main.css"]
-    }
-
-  }
-
+config.assets.css = {
+  vendor: [],
+  app: ["css/main.css"]
 };
