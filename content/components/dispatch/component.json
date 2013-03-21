@@ -1,0 +1,15 @@
+{
+  "name": "dispatch",
+  "version": "0.0.0",
+  "main": "dispatch.js",
+  "gitHead": "027fa01701afcb2e5bd2d7fb1a42eba8bed11be3",
+  "readme": "# Dispatch.js\n\nDispatch.js is a micro JS library for routing browser hash change events to handlers, with parameters.\n\n\n## Example\n\nThe following snippet will alert `\"Hello\"` when the page is loaded, and `\"Hello world\"` when the location hash changes to `\"#/hello/world\"`.\n\n\n    dispatch.on(\"/\", function() {\n      alert(\"Hello\");\n    });\n\n    dispatch.on(\"/hello/:name\", function(params) {\n      alert(\"Hello \" + params.name);\n    });\n\n    dispatch.start(\"/\");\n\nThe location hash can be changed in JS:\n\n    window.location.hash = \"/hello/world\";\n\nor by linking to the appropriate location:\n\n    <a href=\"#/hello/world\">hello</a>\n\n## API\n\n    dispatch.on(path, handler);\n\nAdd a handler to respond to `path`. Any part of path starting with `:` is treated as a required paramenter,\nwhich will be a named property of an object passed as the first argument to the handler.\n\n    dispatch.off([path | handler]);\n\nRemove a handler by its path or by passing the handler itself. Calling this function without any arguments\nwill remove all handlers.\n\n    dispatch.start([path]);\n\nIf there is a current hash value (for example if the page is bookmarked), the appropriate `.on` handler will be used.\nIf not, Dispatch will run the handler answering to the path given to `dispatch.start`.\nIn other words, you call start with the path of the home page of your application, which should be shown\nif there is not already a current hash path in the users browser.\n\n    dispatch.go(path);\n\nNavigate the browser to a certain `path`. Use this method if the handler should be called even if the\npath given is the same as the current browser hash. In other words, using this method ensures\nthat the handler for the given path will be run, and the location hash will be changed if its not\nthe same as the given path.\n\n    dispatch.before = [f_1, ..., f_n];\n    dispatch.after = [f_1, ..., f_n];\n\n`dispatch.before` and `dispatch.after` are arrays to which you may add methods that should be run\nbefore and after each route. Every method in these arrays must take a callback function as their first\nargument, which must be called when the method is finished. This is useful for performing asynchronous\noperations before or after routes are run.\n\n## Support\n\nTested in IE8+ and the latest two versions of other popular browsers.\n",
+  "readmeFilename": "Readme.md",
+  "_id": "dispatch@0.1.0",
+  "description": "Dispatch.js is a micro JS library for routing browser hash change events to handlers, with parameters.",
+  "commit": "027fa01701afcb2e5bd2d7fb1a42eba8bed11be3",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/olav/dispatch.js"
+  }
+}

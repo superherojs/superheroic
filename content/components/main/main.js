@@ -1,3 +1,7 @@
+dispatch.on("/", function() {
+    document.getElementById("app").textContent = "Hello World!";
+});
+
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Hello World!");
+    dispatch.start("/");
 }, false);

@@ -12,7 +12,8 @@ config.assets.js = {
     "components/es5-shim/es5-shim.js",
     "components/json3/lib/json3.js",
     "components/rsvp/rsvp.js",
-    "components/underscore/underscore.js"
+    "components/underscore/underscore.js",
+    "components/dispatch/dispatch.js"
   ],
 
   app: [
