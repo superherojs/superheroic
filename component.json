@@ -4,6 +4,10 @@
 
   "dependencies": {
     "normalize-css": "",
+    "es5-shim": "",
+    "html5shiv": "",
+    "json3": "",
+
     "underscore": "",
     "rsvp": ""
   }

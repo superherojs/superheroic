@@ -8,6 +8,9 @@ var config = exports.config = {
 config.assets.js = {
 
   vendor: [
+    "components/html5shiv/dist/html5shiv.js",
+    "components/es5-shim/es5-shim.js",
+    "components/json3/lib/json3.js",
     "components/rsvp/rsvp.js",
     "components/underscore/underscore.js"
   ],
