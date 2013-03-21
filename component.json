@@ -8,6 +8,7 @@
   ],
 
   "dependencies": {
+    "normalize-css": "",
     "underscore": "",
     "rsvp": ""
   }

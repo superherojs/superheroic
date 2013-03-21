@@ -11,6 +11,6 @@ config.assets.js = {
 };
 
 config.assets.css = {
-  vendor: [],
+  vendor: ["components/normalize-css/normalize.css"],
   app: ["css/main.css"]
 };
