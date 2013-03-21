@@ -6,11 +6,26 @@ var config = exports.config = {
 };
 
 config.assets.js = {
-  vendor: ["components/rsvp/rsvp.js", "components/underscore/underscore.js"],
-  app: ["js/main.js"]
+
+  vendor: [
+    "components/rsvp/rsvp.js",
+    "components/underscore/underscore.js"
+  ],
+
+  app: [
+    "js/main.js"
+  ]
+
 };
 
 config.assets.css = {
-  vendor: ["components/normalize-css/normalize.css"],
-  app: ["css/main.css"]
+
+  vendor: [
+    "components/normalize-css/normalize.css"
+  ],
+
+  app: [
+    "css/main.css"
+  ]
+
 };

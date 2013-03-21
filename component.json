@@ -2,11 +2,6 @@
   "name": "Superheroic",
   "version": "0.0.1",
 
-  "main": [
-    "./js/main.js",
-    "./css/main.css"
-  ],
-
   "dependencies": {
     "normalize-css": "",
     "underscore": "",
