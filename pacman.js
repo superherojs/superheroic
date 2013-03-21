@@ -13,6 +13,7 @@ config.assets.js = {
     "components/json3/lib/json3.js",
     "components/rsvp/rsvp.js",
     "components/underscore/underscore.js",
+    "components/underscore.string/lib/underscore.string.js",
     "components/dispatch/dispatch.js"
   ],
 
