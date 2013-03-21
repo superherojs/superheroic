@@ -16,7 +16,7 @@ config.assets.js = {
   ],
 
   app: [
-    "js/main.js"
+    "components/main/main.js"
   ]
 
 };
@@ -28,7 +28,7 @@ config.assets.css = {
   ],
 
   app: [
-    "css/main.css"
+    "components/main/main.css"
   ]
 
 };
