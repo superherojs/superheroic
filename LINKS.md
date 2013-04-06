@@ -39,7 +39,8 @@ Micro.js, combined.
 
 * Routing: https://github.com/olav/dispatch.js
 * Bindings: http://rivetsjs.com/
-* Creation: ...
+* Touch events: http://quojs.tapquo.com/
+* Creation: https://github.com/markgandolfo/el.js
 
 
 ## Build
