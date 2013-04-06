@@ -9,6 +9,11 @@ Micro.js, combined.
 * Functions: https://github.com/raganwald/allong.es
 * Async: https://github.com/caolan/async
 * Promises: https://github.com/tildeio/rsvp.js
+* Events: https://github.com/Wolfy87/EventEmitter
+
+
+## Types
+
 * URLs: https://github.com/websanova/js-url
 * Strings: http://epeli.github.com/underscore.string/
 * Numbers: https://github.com/josscrowcroft/accounting.js
@@ -24,11 +29,10 @@ Micro.js, combined.
 * Media queries: https://github.com/scottjehl/Respond
 
 
-## Data & Flow
+## Data
 
 * Models: ...
 * Collections: ...
-* Events: https://github.com/Wolfy87/EventEmitter
 * Storage: https://github.com/marcuswestin/store.js
 * Cookies: https://github.com/js-coder/cookie.js
 * Ajax: ...
